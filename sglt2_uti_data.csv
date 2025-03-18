@@ -1,0 +1,678 @@
+sglt2_drug,sglt2_duration,has_diabetes,uti_history,uti_status,gender,age_at_admission,admission_type,length_of_stay
+Dapagliflozin,0,false,false,New onset UTI,M,70,EW EMER.,4
+Dapagliflozin,4,true,true,New onset UTI,M,81,EW EMER.,18
+Dapagliflozin,1,true,false,New onset UTI,F,64,OBSERVATION ADMIT,2
+Dapagliflozin,2,false,false,New onset UTI,M,70,EW EMER.,4
+Empagliflozin,1,true,true,New onset UTI,M,78,EU OBSERVATION,2
+Empagliflozin,6,true,true,New onset UTI,F,59,OBSERVATION ADMIT,33
+Empagliflozin,1,true,true,New onset UTI,F,76,OBSERVATION ADMIT,17
+Empagliflozin,0,true,true,New onset UTI,F,76,OBSERVATION ADMIT,17
+Empagliflozin,2,true,true,New onset UTI,M,80,OBSERVATION ADMIT,3
+Empagliflozin,2,true,true,New onset UTI,M,80,OBSERVATION ADMIT,3
+Dapagliflozin,1,true,false,No UTI,M,56,OBSERVATION ADMIT,6
+Dapagliflozin,4,false,true,No UTI,F,53,OBSERVATION ADMIT,9
+Dapagliflozin,3,true,false,No UTI,M,51,DIRECT EMER.,6
+Dapagliflozin,1,false,false,No UTI,M,56,EU OBSERVATION,4
+Dapagliflozin,0,false,false,No UTI,M,45,OBSERVATION ADMIT,9
+Dapagliflozin,9,true,false,No UTI,M,77,EW EMER.,40
+Dapagliflozin,0,true,false,No UTI,M,75,URGENT,14
+Dapagliflozin,6,false,false,No UTI,M,30,EW EMER.,10
+Dapagliflozin,7,false,true,No UTI,F,71,OBSERVATION ADMIT,18
+Dapagliflozin,0,false,false,No UTI,F,78,SURGICAL SAME DAY ADMISSION,6
+Dapagliflozin,1,true,false,No UTI,M,64,EW EMER.,1
+Dapagliflozin,3,true,false,No UTI,F,76,OBSERVATION ADMIT,8
+Dapagliflozin,4,true,false,No UTI,M,64,EW EMER.,6
+Dapagliflozin,0,true,false,No UTI,M,63,DIRECT OBSERVATION,1
+Dapagliflozin,1,true,false,No UTI,M,79,OBSERVATION ADMIT,11
+Dapagliflozin,1,true,false,No UTI,F,73,EW EMER.,9
+Dapagliflozin,1,false,false,No UTI,M,45,DIRECT OBSERVATION,2
+Dapagliflozin,2,true,false,No UTI,F,62,EW EMER.,3
+Dapagliflozin,0,true,false,No UTI,M,86,OBSERVATION ADMIT,5
+Dapagliflozin,35,true,true,No UTI,F,71,OBSERVATION ADMIT,49
+Dapagliflozin,5,true,false,No UTI,M,67,OBSERVATION ADMIT,44
+Dapagliflozin,1,true,false,No UTI,M,65,EU OBSERVATION,1
+Dapagliflozin,4,true,false,No UTI,M,84,URGENT,25
+Dapagliflozin,1,true,true,No UTI,F,95,EW EMER.,6
+Dapagliflozin,1,true,false,No UTI,M,54,OBSERVATION ADMIT,6
+Dapagliflozin,0,true,false,No UTI,M,60,EW EMER.,7
+Dapagliflozin,31,true,false,No UTI,M,67,OBSERVATION ADMIT,44
+Dapagliflozin,0,false,true,No UTI,F,53,URGENT,6
+Dapagliflozin,7,true,false,No UTI,M,41,OBSERVATION ADMIT,15
+Dapagliflozin,2,false,false,No UTI,M,30,EU OBSERVATION,2
+Dapagliflozin,5,false,false,No UTI,M,89,OBSERVATION ADMIT,8
+Dapagliflozin,10,true,false,No UTI,M,57,URGENT,29
+Dapagliflozin,1,false,false,No UTI,M,66,OBSERVATION ADMIT,6
+Dapagliflozin,1,false,false,No UTI,M,50,URGENT,4
+Dapagliflozin,6,true,false,No UTI,M,77,EW EMER.,14
+Dapagliflozin,8,true,false,No UTI,M,74,OBSERVATION ADMIT,57
+Dapagliflozin,1,true,false,No UTI,M,63,OBSERVATION ADMIT,5
+Dapagliflozin,2,true,false,No UTI,M,65,URGENT,11
+Dapagliflozin,2,true,false,No UTI,M,66,DIRECT EMER.,6
+Dapagliflozin,0,true,false,No UTI,F,50,ELECTIVE,24
+Dapagliflozin,0,false,false,No UTI,M,56,EW EMER.,22
+Dapagliflozin,3,false,false,No UTI,M,74,EW EMER.,4
+Dapagliflozin,0,false,false,No UTI,M,84,URGENT,18
+Dapagliflozin,5,true,true,No UTI,F,71,OBSERVATION ADMIT,49
+Dapagliflozin,1,true,false,No UTI,M,57,URGENT,29
+Dapagliflozin,0,true,false,No UTI,F,73,EW EMER.,9
+Dapagliflozin,0,false,false,No UTI,M,75,DIRECT OBSERVATION,1
+Dapagliflozin,3,true,false,No UTI,M,46,EW EMER.,6
+Dapagliflozin,3,true,false,No UTI,M,79,OBSERVATION ADMIT,11
+Dapagliflozin,0,true,false,No UTI,F,52,URGENT,12
+Dapagliflozin,35,true,false,No UTI,F,52,OBSERVATION ADMIT,56
+Dapagliflozin,3,true,false,No UTI,M,91,OBSERVATION ADMIT,4
+Dapagliflozin,1,true,false,No UTI,M,74,DIRECT EMER.,14
+Dapagliflozin,3,true,false,No UTI,M,75,URGENT,14
+Dapagliflozin,12,false,false,No UTI,M,69,OBSERVATION ADMIT,14
+Dapagliflozin,0,true,false,No UTI,M,68,OBSERVATION ADMIT,1
+Dapagliflozin,3,true,true,No UTI,F,43,EU OBSERVATION,4
+Dapagliflozin,4,false,false,No UTI,F,25,EW EMER.,6
+Dapagliflozin,8,true,false,No UTI,M,73,OBSERVATION ADMIT,9
+Dapagliflozin,3,true,false,No UTI,M,56,URGENT,6
+Dapagliflozin,7,false,true,No UTI,M,70,OBSERVATION ADMIT,10
+Dapagliflozin,7,false,false,No UTI,M,57,URGENT,23
+Dapagliflozin,0,true,false,No UTI,M,61,EU OBSERVATION,2
+Dapagliflozin,1,true,false,No UTI,M,45,URGENT,8
+Dapagliflozin,4,true,false,No UTI,M,79,OBSERVATION ADMIT,6
+Dapagliflozin,6,true,false,No UTI,M,62,OBSERVATION ADMIT,7
+Dapagliflozin,1,true,false,No UTI,M,82,OBSERVATION ADMIT,9
+Dapagliflozin,6,true,false,No UTI,M,69,DIRECT EMER.,39
+Dapagliflozin,13,true,false,No UTI,M,84,OBSERVATION ADMIT,17
+Dapagliflozin,3,true,false,No UTI,M,64,URGENT,6
+Dapagliflozin,6,true,false,No UTI,M,63,OBSERVATION ADMIT,7
+Dapagliflozin,3,false,false,No UTI,M,53,OBSERVATION ADMIT,10
+Dapagliflozin,2,true,false,No UTI,F,62,OBSERVATION ADMIT,45
+Dapagliflozin,1,true,false,No UTI,M,61,EU OBSERVATION,8
+Dapagliflozin,4,false,false,No UTI,M,85,EW EMER.,21
+Dapagliflozin,0,false,true,No UTI,M,71,OBSERVATION ADMIT,15
+Dapagliflozin,0,false,false,No UTI,M,84,URGENT,18
+Dapagliflozin,0,true,false,No UTI,F,81,EW EMER.,9
+Dapagliflozin,7,true,false,No UTI,M,64,URGENT,12
+Dapagliflozin,7,false,false,No UTI,M,69,OBSERVATION ADMIT,9
+Dapagliflozin,0,true,false,No UTI,F,73,EW EMER.,9
+Dapagliflozin,2,true,false,No UTI,M,88,OBSERVATION ADMIT,3
+Dapagliflozin,0,false,false,No UTI,M,80,OBSERVATION ADMIT,4
+Dapagliflozin,0,false,false,No UTI,M,65,OBSERVATION ADMIT,9
+Dapagliflozin,0,true,false,No UTI,M,75,SURGICAL SAME DAY ADMISSION,1
+Dapagliflozin,15,true,false,No UTI,F,78,OBSERVATION ADMIT,22
+Dapagliflozin,0,true,false,No UTI,F,62,OBSERVATION ADMIT,45
+Dapagliflozin,0,true,false,No UTI,M,65,EW EMER.,2
+Dapagliflozin,5,false,false,No UTI,M,65,OBSERVATION ADMIT,14
+Dapagliflozin,0,false,false,No UTI,M,43,EW EMER.,8
+Dapagliflozin,7,true,false,No UTI,M,77,EW EMER.,14
+Dapagliflozin,4,false,false,No UTI,M,70,OBSERVATION ADMIT,5
+Dapagliflozin,0,true,false,No UTI,M,54,URGENT,10
+Dapagliflozin,2,false,false,No UTI,M,70,OBSERVATION ADMIT,3
+Dapagliflozin,6,false,false,No UTI,F,54,OBSERVATION ADMIT,11
+Dapagliflozin,4,true,false,No UTI,F,46,OBSERVATION ADMIT,27
+Dapagliflozin,0,true,false,No UTI,F,52,URGENT,12
+Dapagliflozin,1,false,false,No UTI,M,71,EW EMER.,5
+Dapagliflozin,4,false,false,No UTI,M,36,DIRECT EMER.,7
+Dapagliflozin,7,true,true,No UTI,M,75,EW EMER.,8
+Dapagliflozin,5,false,false,No UTI,M,84,URGENT,18
+Dapagliflozin,0,false,false,No UTI,M,74,EW EMER.,4
+Dapagliflozin,2,true,true,No UTI,F,43,EU OBSERVATION,2
+Dapagliflozin,0,true,true,No UTI,F,95,EW EMER.,6
+Dapagliflozin,11,true,false,No UTI,M,69,EW EMER.,11
+Dapagliflozin,1,true,false,No UTI,M,79,EW EMER.,3
+Dapagliflozin,0,false,false,No UTI,M,75,OBSERVATION ADMIT,28
+Dapagliflozin,0,true,false,No UTI,M,74,OBSERVATION ADMIT,57
+Dapagliflozin,0,false,false,No UTI,M,30,EW EMER.,10
+Dapagliflozin,4,false,false,No UTI,M,84,URGENT,18
+Dapagliflozin,2,true,false,No UTI,F,81,EW EMER.,9
+Dapagliflozin,0,true,false,No UTI,M,61,EU OBSERVATION,2
+Dapagliflozin,0,true,false,No UTI,F,62,OBSERVATION ADMIT,45
+Dapagliflozin,0,false,false,No UTI,M,70,DIRECT OBSERVATION,1
+Dapagliflozin,0,true,true,No UTI,M,54,EW EMER.,38
+Dapagliflozin,1,true,true,No UTI,M,75,EW EMER.,3
+Dapagliflozin,1,false,false,No UTI,M,80,OBSERVATION ADMIT,4
+Dapagliflozin,6,true,false,No UTI,M,87,OBSERVATION ADMIT,7
+Dapagliflozin,0,false,false,No UTI,M,52,OBSERVATION ADMIT,2
+Dapagliflozin,7,true,false,No UTI,M,69,DIRECT EMER.,39
+Dapagliflozin,0,true,false,No UTI,M,65,EU OBSERVATION,1
+Dapagliflozin,1,false,false,No UTI,M,77,URGENT,4
+Dapagliflozin,1,true,false,No UTI,M,66,EW EMER.,14
+Dapagliflozin,2,false,false,No UTI,M,75,OBSERVATION ADMIT,28
+Dapagliflozin,1,false,true,No UTI,F,71,OBSERVATION ADMIT,18
+Dapagliflozin,2,false,true,No UTI,F,54,SURGICAL SAME DAY ADMISSION,8
+Dapagliflozin,1,false,true,No UTI,F,53,DIRECT EMER.,1
+Dapagliflozin,1,false,true,No UTI,F,54,SURGICAL SAME DAY ADMISSION,8
+Dapagliflozin,3,false,false,No UTI,M,61,EW EMER.,3
+Dapagliflozin,6,true,true,No UTI,F,42,OBSERVATION ADMIT,38
+Dapagliflozin,1,false,false,No UTI,F,74,OBSERVATION ADMIT,5
+Dapagliflozin,5,true,false,No UTI,M,41,EW EMER.,5
+Dapagliflozin,6,true,false,No UTI,M,64,OBSERVATION ADMIT,13
+Dapagliflozin,1,false,false,No UTI,M,80,OBSERVATION ADMIT,4
+Dapagliflozin,0,false,true,No UTI,M,81,EW EMER.,10
+Dapagliflozin,2,false,false,No UTI,M,56,EW EMER.,22
+Dapagliflozin,0,true,false,No UTI,M,61,EU OBSERVATION,2
+Dapagliflozin,2,true,false,No UTI,M,54,EU OBSERVATION,3
+Dapagliflozin,4,true,false,No UTI,M,56,OBSERVATION ADMIT,5
+Dapagliflozin,0,false,false,No UTI,M,36,DIRECT EMER.,7
+Dapagliflozin,21,true,false,No UTI,F,46,OBSERVATION ADMIT,27
+Dapagliflozin,3,true,true,No UTI,F,95,OBSERVATION ADMIT,3
+Dapagliflozin,5,true,false,No UTI,F,50,ELECTIVE,24
+Dapagliflozin,1,true,false,No UTI,M,58,SURGICAL SAME DAY ADMISSION,4
+Dapagliflozin,0,true,false,No UTI,M,65,EU OBSERVATION,1
+Dapagliflozin,5,true,false,No UTI,F,70,OBSERVATION ADMIT,6
+Dapagliflozin,0,true,false,No UTI,F,52,URGENT,12
+Dapagliflozin,13,true,false,No UTI,F,58,OBSERVATION ADMIT,15
+Dapagliflozin,3,true,true,No UTI,M,71,EW EMER.,5
+Dapagliflozin,4,true,true,No UTI,F,42,EW EMER.,6
+Dapagliflozin,2,true,false,No UTI,M,55,EW EMER.,9
+Dapagliflozin,0,true,false,No UTI,F,62,OBSERVATION ADMIT,45
+Dapagliflozin,3,true,false,No UTI,M,70,EW EMER.,6
+Dapagliflozin,1,false,false,No UTI,M,67,OBSERVATION ADMIT,5
+Dapagliflozin,15,true,false,No UTI,M,69,URGENT,28
+Dapagliflozin,12,true,false,No UTI,F,65,URGENT,93
+Dapagliflozin,3,true,false,No UTI,M,90,OBSERVATION ADMIT,10
+Dapagliflozin,1,true,false,No UTI,M,66,DIRECT EMER.,2
+Dapagliflozin,4,true,false,No UTI,M,66,OBSERVATION ADMIT,5
+Dapagliflozin,4,true,false,No UTI,F,62,EW EMER.,6
+Dapagliflozin,3,true,false,No UTI,M,63,EW EMER.,3
+Dapagliflozin,1,false,false,No UTI,M,67,DIRECT OBSERVATION,1
+Dapagliflozin,5,true,false,No UTI,M,70,EW EMER.,11
+Dapagliflozin,4,true,false,No UTI,F,52,URGENT,12
+Dapagliflozin,0,true,false,No UTI,M,90,OBSERVATION ADMIT,3
+Dapagliflozin,8,false,false,No UTI,M,65,OBSERVATION ADMIT,9
+Dapagliflozin,2,true,false,No UTI,M,55,OBSERVATION ADMIT,5
+Dapagliflozin,0,true,false,No UTI,F,80,DIRECT OBSERVATION,1
+Dapagliflozin,1,false,false,No UTI,M,35,OBSERVATION ADMIT,4
+Dapagliflozin,0,true,false,No UTI,M,64,OBSERVATION ADMIT,13
+Dapagliflozin,0,true,false,No UTI,M,55,EW EMER.,4
+Dapagliflozin,3,false,false,No UTI,M,56,EU OBSERVATION,4
+Dapagliflozin,2,true,false,No UTI,M,76,OBSERVATION ADMIT,4
+Dapagliflozin,2,true,false,No UTI,M,63,OBSERVATION ADMIT,5
+Dapagliflozin,4,false,false,No UTI,M,79,OBSERVATION ADMIT,4
+Dapagliflozin,1,true,false,No UTI,M,65,URGENT,11
+Dapagliflozin,12,true,false,No UTI,F,52,OBSERVATION ADMIT,56
+Dapagliflozin,3,true,false,No UTI,F,52,OBSERVATION ADMIT,56
+Dapagliflozin,20,true,true,No UTI,M,54,EW EMER.,38
+Dapagliflozin,1,true,false,No UTI,M,87,EW EMER.,1
+Dapagliflozin,0,true,false,No UTI,M,75,URGENT,14
+Dapagliflozin,4,false,false,No UTI,F,78,SURGICAL SAME DAY ADMISSION,6
+Dapagliflozin,2,true,true,No UTI,M,54,EW EMER.,38
+Dapagliflozin,5,true,false,No UTI,M,69,DIRECT EMER.,39
+Dapagliflozin,6,true,false,No UTI,M,55,EW EMER.,9
+Dapagliflozin,7,true,false,No UTI,F,46,OBSERVATION ADMIT,12
+Empagliflozin,3,true,false,No UTI,M,67,URGENT,10
+Empagliflozin,1,false,false,No UTI,F,64,EW EMER.,15
+Empagliflozin,11,true,false,No UTI,M,63,OBSERVATION ADMIT,12
+Empagliflozin,3,true,false,No UTI,F,62,OBSERVATION ADMIT,5
+Empagliflozin,4,true,false,No UTI,M,52,OBSERVATION ADMIT,19
+Empagliflozin,1,true,false,No UTI,M,54,EU OBSERVATION,2
+Empagliflozin,3,true,false,No UTI,F,80,EW EMER.,7
+Empagliflozin,0,true,false,No UTI,M,60,OBSERVATION ADMIT,25
+Empagliflozin,0,false,false,No UTI,M,70,URGENT,13
+Empagliflozin,0,false,false,No UTI,M,56,DIRECT OBSERVATION,2
+Empagliflozin,10,true,true,No UTI,F,70,OBSERVATION ADMIT,11
+Empagliflozin,0,true,false,No UTI,F,56,EW EMER.,6
+Empagliflozin,1,true,false,No UTI,M,61,EW EMER.,11
+Empagliflozin,0,false,false,No UTI,F,85,EW EMER.,5
+Empagliflozin,3,true,false,No UTI,M,94,EW EMER.,4
+Empagliflozin,2,true,false,No UTI,F,41,OBSERVATION ADMIT,6
+Empagliflozin,0,true,true,No UTI,M,56,EU OBSERVATION,1
+Empagliflozin,3,true,true,No UTI,F,56,EW EMER.,22
+Empagliflozin,18,true,true,No UTI,M,61,EW EMER.,25
+Empagliflozin,1,true,false,No UTI,M,63,EU OBSERVATION,2
+Empagliflozin,0,false,true,No UTI,M,61,URGENT,13
+Empagliflozin,1,true,false,No UTI,F,84,EW EMER.,2
+Empagliflozin,1,false,false,No UTI,M,85,OBSERVATION ADMIT,7
+Empagliflozin,4,false,false,No UTI,F,91,OBSERVATION ADMIT,5
+Empagliflozin,5,true,false,No UTI,F,55,OBSERVATION ADMIT,7
+Empagliflozin,10,true,false,No UTI,M,74,OBSERVATION ADMIT,11
+Empagliflozin,10,true,false,No UTI,M,58,OBSERVATION ADMIT,10
+Empagliflozin,0,true,false,No UTI,F,77,EW EMER.,8
+Empagliflozin,1,true,true,No UTI,F,85,EW EMER.,2
+Empagliflozin,2,true,false,No UTI,M,78,URGENT,18
+Empagliflozin,0,true,false,No UTI,M,66,URGENT,10
+Empagliflozin,0,true,false,No UTI,F,68,OBSERVATION ADMIT,18
+Empagliflozin,1,true,false,No UTI,M,75,SURGICAL SAME DAY ADMISSION,9
+Empagliflozin,4,true,false,No UTI,M,70,DIRECT EMER.,6
+Empagliflozin,1,true,false,No UTI,F,73,OBSERVATION ADMIT,10
+Empagliflozin,1,false,false,No UTI,M,66,URGENT,18
+Empagliflozin,2,false,false,No UTI,F,85,EW EMER.,7
+Empagliflozin,1,true,false,No UTI,F,74,OBSERVATION ADMIT,5
+Empagliflozin,0,true,true,No UTI,F,66,EW EMER.,1
+Empagliflozin,0,false,false,No UTI,M,40,URGENT,8
+Empagliflozin,3,true,false,No UTI,M,71,URGENT,9
+Empagliflozin,20,true,false,No UTI,F,66,OBSERVATION ADMIT,22
+Empagliflozin,1,true,false,No UTI,F,59,EW EMER.,5
+Empagliflozin,0,true,false,No UTI,M,84,DIRECT OBSERVATION,1
+Empagliflozin,1,true,true,No UTI,F,69,OBSERVATION ADMIT,39
+Empagliflozin,5,true,false,No UTI,M,73,OBSERVATION ADMIT,21
+Empagliflozin,1,false,false,No UTI,F,91,DIRECT EMER.,2
+Empagliflozin,4,true,false,No UTI,F,82,OBSERVATION ADMIT,5
+Empagliflozin,1,true,false,No UTI,F,77,OBSERVATION ADMIT,3
+Empagliflozin,5,true,false,No UTI,F,56,EW EMER.,6
+Empagliflozin,3,true,false,No UTI,M,65,URGENT,10
+Empagliflozin,0,true,false,No UTI,M,67,URGENT,10
+Empagliflozin,1,false,false,No UTI,M,88,OBSERVATION ADMIT,4
+Empagliflozin,0,true,false,No UTI,M,78,EW EMER.,22
+Empagliflozin,1,false,false,No UTI,M,76,OBSERVATION ADMIT,6
+Empagliflozin,5,true,false,No UTI,M,42,OBSERVATION ADMIT,6
+Empagliflozin,2,true,true,No UTI,F,59,EW EMER.,3
+Empagliflozin,9,true,false,No UTI,M,78,URGENT,19
+Empagliflozin,1,true,false,No UTI,M,79,OBSERVATION ADMIT,15
+Empagliflozin,4,true,false,No UTI,M,61,OBSERVATION ADMIT,5
+Empagliflozin,1,false,false,No UTI,M,68,DIRECT OBSERVATION,1
+Empagliflozin,1,false,false,No UTI,M,53,OBSERVATION ADMIT,2
+Empagliflozin,0,true,false,No UTI,M,78,URGENT,19
+Empagliflozin,1,false,false,No UTI,M,74,OBSERVATION ADMIT,5
+Empagliflozin,1,true,false,No UTI,M,87,EW EMER.,3
+Empagliflozin,0,false,false,No UTI,M,76,URGENT,9
+Empagliflozin,0,true,false,No UTI,M,75,SURGICAL SAME DAY ADMISSION,9
+Empagliflozin,4,true,false,No UTI,M,55,EW EMER.,6
+Empagliflozin,6,false,false,No UTI,M,70,OBSERVATION ADMIT,11
+Empagliflozin,0,false,false,No UTI,F,84,EU OBSERVATION,4
+Empagliflozin,5,false,false,No UTI,F,91,OBSERVATION ADMIT,7
+Empagliflozin,14,true,false,No UTI,F,75,EW EMER.,55
+Empagliflozin,1,true,false,No UTI,F,65,OBSERVATION ADMIT,13
+Empagliflozin,1,true,false,No UTI,M,79,OBSERVATION ADMIT,2
+Empagliflozin,0,false,false,No UTI,M,85,EW EMER.,9
+Empagliflozin,1,true,false,No UTI,M,71,URGENT,42
+Empagliflozin,5,true,false,No UTI,M,78,EW EMER.,37
+Empagliflozin,4,true,false,No UTI,M,67,OBSERVATION ADMIT,8
+Empagliflozin,0,true,false,No UTI,M,65,OBSERVATION ADMIT,8
+Empagliflozin,0,false,false,No UTI,M,57,OBSERVATION ADMIT,4
+Empagliflozin,3,true,true,No UTI,M,78,DIRECT OBSERVATION,3
+Empagliflozin,4,true,false,No UTI,F,70,DIRECT EMER.,8
+Empagliflozin,2,false,false,No UTI,M,75,EW EMER.,9
+Empagliflozin,48,true,false,No UTI,M,66,OBSERVATION ADMIT,72
+Empagliflozin,0,true,false,No UTI,M,61,URGENT,7
+Empagliflozin,1,true,false,No UTI,M,64,EW EMER.,5
+Empagliflozin,0,true,false,No UTI,M,55,OBSERVATION ADMIT,2
+Empagliflozin,5,true,false,No UTI,F,56,EW EMER.,6
+Empagliflozin,4,true,false,No UTI,F,76,EW EMER.,22
+Empagliflozin,0,true,false,No UTI,M,81,EW EMER.,3
+Empagliflozin,2,false,false,No UTI,M,74,OBSERVATION ADMIT,3
+Empagliflozin,0,true,false,No UTI,F,63,OBSERVATION ADMIT,4
+Empagliflozin,2,true,false,No UTI,M,55,URGENT,1
+Empagliflozin,0,true,false,No UTI,M,79,OBSERVATION ADMIT,2
+Empagliflozin,2,true,false,No UTI,M,61,URGENT,7
+Empagliflozin,0,true,true,No UTI,M,61,EW EMER.,5
+Empagliflozin,2,true,false,No UTI,F,81,EW EMER.,6
+Empagliflozin,1,false,false,No UTI,M,70,URGENT,13
+Empagliflozin,1,true,false,No UTI,F,60,OBSERVATION ADMIT,2
+Empagliflozin,4,false,false,No UTI,M,59,EW EMER.,19
+Empagliflozin,17,true,false,No UTI,M,77,EW EMER.,40
+Empagliflozin,5,true,false,No UTI,M,63,EW EMER.,5
+Empagliflozin,0,true,false,No UTI,F,75,OBSERVATION ADMIT,6
+Empagliflozin,9,true,true,No UTI,M,80,OBSERVATION ADMIT,12
+Empagliflozin,4,false,false,No UTI,F,65,URGENT,13
+Empagliflozin,2,true,true,No UTI,F,65,OBSERVATION ADMIT,4
+Empagliflozin,1,true,false,No UTI,F,41,OBSERVATION ADMIT,6
+Empagliflozin,2,false,true,No UTI,F,66,EU OBSERVATION,2
+Empagliflozin,7,true,true,No UTI,F,74,EW EMER.,32
+Empagliflozin,9,true,false,No UTI,M,87,EW EMER.,10
+Empagliflozin,1,true,false,No UTI,F,55,EU OBSERVATION,2
+Empagliflozin,0,true,false,No UTI,M,68,OBSERVATION ADMIT,4
+Empagliflozin,1,true,false,No UTI,M,85,OBSERVATION ADMIT,3
+Empagliflozin,0,true,false,No UTI,F,59,EW EMER.,5
+Empagliflozin,4,true,false,No UTI,F,66,OBSERVATION ADMIT,6
+Empagliflozin,1,true,true,No UTI,F,66,OBSERVATION ADMIT,7
+Empagliflozin,1,true,true,No UTI,M,61,EW EMER.,5
+Empagliflozin,1,false,false,No UTI,M,73,OBSERVATION ADMIT,12
+Empagliflozin,6,true,true,No UTI,F,85,OBSERVATION ADMIT,9
+Empagliflozin,1,true,false,No UTI,M,79,EW EMER.,14
+Empagliflozin,0,true,false,No UTI,M,87,EW EMER.,3
+Empagliflozin,0,true,true,No UTI,M,61,EW EMER.,25
+Empagliflozin,2,true,false,No UTI,M,53,EW EMER.,3
+Empagliflozin,0,true,true,No UTI,F,49,DIRECT OBSERVATION,1
+Empagliflozin,1,false,false,No UTI,F,61,OBSERVATION ADMIT,6
+Empagliflozin,2,true,false,No UTI,F,73,OBSERVATION ADMIT,6
+Empagliflozin,1,true,false,No UTI,M,67,OBSERVATION ADMIT,3
+Empagliflozin,2,true,false,No UTI,F,61,OBSERVATION ADMIT,5
+Empagliflozin,3,false,false,No UTI,F,68,EW EMER.,3
+Empagliflozin,6,true,false,No UTI,F,72,OBSERVATION ADMIT,9
+Empagliflozin,1,true,false,No UTI,F,89,DIRECT EMER.,33
+Empagliflozin,4,false,true,No UTI,F,66,OBSERVATION ADMIT,11
+Empagliflozin,1,false,false,No UTI,M,68,EU OBSERVATION,2
+Empagliflozin,3,true,true,No UTI,F,69,OBSERVATION ADMIT,9
+Empagliflozin,1,true,false,No UTI,M,67,URGENT,10
+Empagliflozin,7,false,false,No UTI,M,66,URGENT,8
+Empagliflozin,0,true,true,No UTI,F,56,EW EMER.,1
+Empagliflozin,1,false,false,No UTI,M,78,EW EMER.,5
+Empagliflozin,2,true,false,No UTI,M,75,URGENT,9
+Empagliflozin,0,false,false,No UTI,M,30,EW EMER.,1
+Empagliflozin,1,false,false,No UTI,F,72,OBSERVATION ADMIT,3
+Empagliflozin,1,true,false,No UTI,M,80,URGENT,17
+Empagliflozin,0,true,false,No UTI,M,54,EU OBSERVATION,3
+Empagliflozin,1,true,false,No UTI,F,59,OBSERVATION ADMIT,10
+Empagliflozin,2,true,false,No UTI,M,57,OBSERVATION ADMIT,3
+Empagliflozin,11,false,false,No UTI,F,58,DIRECT EMER.,21
+Empagliflozin,0,false,true,No UTI,M,82,DIRECT OBSERVATION,1
+Empagliflozin,2,true,false,No UTI,F,89,DIRECT EMER.,33
+Empagliflozin,3,false,false,No UTI,M,73,DIRECT EMER.,23
+Empagliflozin,2,false,true,No UTI,F,81,OBSERVATION ADMIT,4
+Empagliflozin,1,true,false,No UTI,M,70,OBSERVATION ADMIT,11
+Empagliflozin,1,true,false,No UTI,F,57,EU OBSERVATION,3
+Empagliflozin,0,false,false,No UTI,F,60,EW EMER.,5
+Empagliflozin,4,true,false,No UTI,F,40,OBSERVATION ADMIT,6
+Empagliflozin,4,false,false,No UTI,M,88,OBSERVATION ADMIT,11
+Empagliflozin,0,true,false,No UTI,M,73,SURGICAL SAME DAY ADMISSION,5
+Empagliflozin,1,false,false,No UTI,F,78,OBSERVATION ADMIT,6
+Empagliflozin,0,true,false,No UTI,F,50,ELECTIVE,24
+Empagliflozin,2,false,false,No UTI,F,71,SURGICAL SAME DAY ADMISSION,11
+Empagliflozin,0,true,false,No UTI,F,62,EW EMER.,2
+Empagliflozin,4,true,false,No UTI,M,70,ELECTIVE,10
+Empagliflozin,1,true,false,No UTI,M,62,EW EMER.,5
+Empagliflozin,3,true,true,No UTI,F,84,OBSERVATION ADMIT,8
+Empagliflozin,0,true,false,No UTI,M,77,OBSERVATION ADMIT,10
+Empagliflozin,3,true,false,No UTI,M,85,URGENT,5
+Empagliflozin,0,false,false,No UTI,M,74,OBSERVATION ADMIT,2
+Empagliflozin,0,false,false,No UTI,M,70,DIRECT OBSERVATION,1
+Empagliflozin,2,false,false,No UTI,M,73,DIRECT EMER.,8
+Empagliflozin,19,true,true,No UTI,F,69,EW EMER.,23
+Empagliflozin,5,true,false,No UTI,M,77,OBSERVATION ADMIT,6
+Empagliflozin,12,false,false,No UTI,M,70,OBSERVATION ADMIT,12
+Empagliflozin,1,false,false,No UTI,M,48,EW EMER.,3
+Empagliflozin,9,true,true,No UTI,M,84,DIRECT EMER.,13
+Empagliflozin,2,true,false,No UTI,F,83,OBSERVATION ADMIT,4
+Empagliflozin,1,true,false,No UTI,M,77,URGENT,27
+Empagliflozin,3,true,false,No UTI,M,92,OBSERVATION ADMIT,3
+Empagliflozin,2,false,false,No UTI,F,76,OBSERVATION ADMIT,14
+Empagliflozin,0,true,false,No UTI,M,67,ELECTIVE,1
+Empagliflozin,1,true,false,No UTI,M,68,OBSERVATION ADMIT,10
+Empagliflozin,14,false,false,No UTI,F,86,EW EMER.,21
+Empagliflozin,0,true,false,No UTI,M,57,OBSERVATION ADMIT,3
+Empagliflozin,4,true,false,No UTI,M,67,URGENT,10
+Empagliflozin,6,true,true,No UTI,F,72,EW EMER.,14
+Empagliflozin,0,true,false,No UTI,M,68,OBSERVATION ADMIT,10
+Empagliflozin,1,false,false,No UTI,M,78,OBSERVATION ADMIT,3
+Empagliflozin,4,true,true,No UTI,F,39,EW EMER.,32
+Empagliflozin,0,true,true,No UTI,F,92,EW EMER.,4
+Empagliflozin,3,true,false,No UTI,M,72,EW EMER.,14
+Empagliflozin,0,false,false,No UTI,M,70,URGENT,13
+Empagliflozin,2,false,false,No UTI,F,65,OBSERVATION ADMIT,6
+Empagliflozin,5,true,true,No UTI,F,48,OBSERVATION ADMIT,8
+Empagliflozin,4,true,false,No UTI,M,68,URGENT,18
+Empagliflozin,0,true,false,No UTI,F,61,EU OBSERVATION,2
+Empagliflozin,71,false,true,No UTI,M,61,OBSERVATION ADMIT,156
+Empagliflozin,3,false,true,No UTI,F,80,OBSERVATION ADMIT,4
+Empagliflozin,0,false,false,No UTI,M,84,ELECTIVE,1
+Empagliflozin,0,true,false,No UTI,M,65,OBSERVATION ADMIT,8
+Empagliflozin,0,true,false,No UTI,F,75,OBSERVATION ADMIT,6
+Empagliflozin,7,true,true,No UTI,M,67,EW EMER.,9
+Empagliflozin,5,true,false,No UTI,M,89,OBSERVATION ADMIT,16
+Empagliflozin,0,true,false,No UTI,M,56,OBSERVATION ADMIT,7
+Empagliflozin,1,false,false,No UTI,M,43,OBSERVATION ADMIT,5
+Empagliflozin,1,true,false,No UTI,F,41,OBSERVATION ADMIT,6
+Empagliflozin,0,true,false,No UTI,M,54,OBSERVATION ADMIT,4
+Empagliflozin,12,true,false,No UTI,F,56,EW EMER.,12
+Empagliflozin,2,true,true,No UTI,M,72,OBSERVATION ADMIT,12
+Empagliflozin,0,true,true,No UTI,F,48,OBSERVATION ADMIT,4
+Empagliflozin,2,false,false,No UTI,F,64,EW EMER.,15
+Empagliflozin,5,false,false,No UTI,M,56,OBSERVATION ADMIT,6
+Empagliflozin,9,true,true,No UTI,M,80,OBSERVATION ADMIT,9
+Empagliflozin,0,true,false,No UTI,M,53,DIRECT OBSERVATION,1
+Empagliflozin,1,true,false,No UTI,F,68,EW EMER.,15
+Empagliflozin,5,false,false,No UTI,F,86,OBSERVATION ADMIT,12
+Empagliflozin,4,false,false,No UTI,M,73,EW EMER.,13
+Empagliflozin,4,false,false,No UTI,M,68,OBSERVATION ADMIT,3
+Empagliflozin,4,false,false,No UTI,F,86,EW EMER.,21
+Empagliflozin,15,true,true,No UTI,M,86,EW EMER.,22
+Empagliflozin,0,true,false,No UTI,M,73,EW EMER.,18
+Empagliflozin,20,true,false,No UTI,M,65,OBSERVATION ADMIT,50
+Empagliflozin,0,true,false,No UTI,F,86,OBSERVATION ADMIT,10
+Empagliflozin,0,false,false,No UTI,F,78,OBSERVATION ADMIT,5
+Empagliflozin,1,true,false,No UTI,F,64,SURGICAL SAME DAY ADMISSION,2
+Empagliflozin,1,true,false,No UTI,F,68,EW EMER.,2
+Empagliflozin,0,true,false,No UTI,F,75,URGENT,20
+Empagliflozin,5,false,true,No UTI,M,86,EW EMER.,5
+Empagliflozin,3,false,false,No UTI,M,45,URGENT,4
+Empagliflozin,4,false,false,No UTI,M,79,OBSERVATION ADMIT,13
+Empagliflozin,0,true,true,No UTI,F,69,OBSERVATION ADMIT,9
+Empagliflozin,7,true,true,No UTI,M,69,EW EMER.,13
+Empagliflozin,3,true,false,No UTI,F,71,EW EMER.,6
+Empagliflozin,4,true,true,No UTI,M,86,OBSERVATION ADMIT,9
+Empagliflozin,0,false,false,No UTI,F,65,EW EMER.,5
+Empagliflozin,1,false,false,No UTI,M,69,EW EMER.,8
+Empagliflozin,20,true,true,No UTI,M,91,OBSERVATION ADMIT,23
+Empagliflozin,0,false,false,No UTI,M,87,EU OBSERVATION,1
+Empagliflozin,2,false,false,No UTI,F,64,EW EMER.,15
+Empagliflozin,0,true,false,No UTI,M,62,EW EMER.,2
+Empagliflozin,3,true,false,No UTI,M,48,OBSERVATION ADMIT,3
+Empagliflozin,0,false,false,No UTI,M,78,EW EMER.,5
+Empagliflozin,4,true,false,No UTI,M,61,EW EMER.,11
+Empagliflozin,3,false,false,No UTI,F,57,EW EMER.,37
+Empagliflozin,0,true,false,No UTI,F,82,OBSERVATION ADMIT,15
+Empagliflozin,0,true,false,No UTI,M,65,OBSERVATION ADMIT,50
+Empagliflozin,7,false,false,No UTI,M,69,EW EMER.,13
+Empagliflozin,5,true,true,No UTI,F,56,EW EMER.,35
+Empagliflozin,1,true,false,No UTI,M,70,EW EMER.,4
+Empagliflozin,1,true,false,No UTI,M,35,OBSERVATION ADMIT,9
+Empagliflozin,1,false,false,No UTI,M,73,EW EMER.,9
+Empagliflozin,0,true,false,No UTI,M,58,OBSERVATION ADMIT,6
+Empagliflozin,4,false,false,No UTI,M,73,DIRECT EMER.,23
+Empagliflozin,7,true,true,No UTI,M,61,OBSERVATION ADMIT,7
+Empagliflozin,17,true,false,No UTI,F,65,OBSERVATION ADMIT,18
+Empagliflozin,1,true,false,No UTI,F,66,OBSERVATION ADMIT,8
+Empagliflozin,3,false,true,No UTI,M,62,EW EMER.,5
+Empagliflozin,2,true,true,No UTI,F,85,OBSERVATION ADMIT,11
+Empagliflozin,4,true,true,No UTI,F,88,OBSERVATION ADMIT,4
+Empagliflozin,1,false,false,No UTI,M,54,OBSERVATION ADMIT,5
+Empagliflozin,2,true,false,No UTI,F,82,EW EMER.,4
+Empagliflozin,3,true,false,No UTI,M,78,EW EMER.,22
+Empagliflozin,0,false,false,No UTI,M,75,OBSERVATION ADMIT,3
+Empagliflozin,0,true,false,No UTI,F,63,EW EMER.,2
+Empagliflozin,4,true,false,No UTI,M,53,URGENT,9
+Empagliflozin,2,true,false,No UTI,M,49,DIRECT EMER.,9
+Empagliflozin,3,true,false,No UTI,M,89,OBSERVATION ADMIT,16
+Empagliflozin,0,true,false,No UTI,F,50,ELECTIVE,24
+Empagliflozin,3,true,false,No UTI,M,57,OBSERVATION ADMIT,5
+Empagliflozin,0,false,false,No UTI,F,85,EW EMER.,5
+Empagliflozin,1,true,false,No UTI,M,68,URGENT,18
+Empagliflozin,3,true,false,No UTI,M,66,URGENT,10
+Empagliflozin,2,true,false,No UTI,F,63,EW EMER.,2
+Empagliflozin,1,true,false,No UTI,M,78,EW EMER.,37
+Empagliflozin,9,true,false,No UTI,M,68,OBSERVATION ADMIT,10
+Empagliflozin,1,true,false,No UTI,F,76,EU OBSERVATION,3
+Empagliflozin,2,true,false,No UTI,F,58,OBSERVATION ADMIT,7
+Empagliflozin,9,true,false,No UTI,M,65,OBSERVATION ADMIT,50
+Empagliflozin,0,true,false,No UTI,F,58,EU OBSERVATION,1
+Empagliflozin,8,false,false,No UTI,M,73,DIRECT EMER.,23
+Empagliflozin,0,true,false,No UTI,F,66,EW EMER.,18
+Empagliflozin,0,false,false,No UTI,F,80,EW EMER.,5
+Empagliflozin,6,true,false,No UTI,F,73,EW EMER.,7
+Empagliflozin,1,true,false,No UTI,F,68,DIRECT OBSERVATION,1
+Empagliflozin,1,true,false,No UTI,M,67,URGENT,10
+Empagliflozin,3,true,false,No UTI,F,76,OBSERVATION ADMIT,3
+Empagliflozin,4,false,true,No UTI,M,62,URGENT,10
+Empagliflozin,5,false,false,No UTI,M,56,OBSERVATION ADMIT,6
+Empagliflozin,5,true,true,No UTI,F,85,EW EMER.,29
+Empagliflozin,1,true,true,No UTI,M,69,OBSERVATION ADMIT,1
+Empagliflozin,1,true,true,No UTI,M,61,EW EMER.,5
+Empagliflozin,0,false,false,No UTI,F,76,OBSERVATION ADMIT,14
+Empagliflozin,16,true,true,No UTI,F,56,EW EMER.,35
+Empagliflozin,5,true,false,No UTI,M,87,OBSERVATION ADMIT,6
+Empagliflozin,5,true,false,No UTI,M,60,OBSERVATION ADMIT,25
+Empagliflozin,0,true,false,No UTI,F,68,URGENT,7
+Empagliflozin,0,true,false,No UTI,M,56,EU OBSERVATION,2
+Empagliflozin,0,true,false,No UTI,M,40,EU OBSERVATION,1
+Empagliflozin,0,false,false,No UTI,M,85,EW EMER.,9
+Empagliflozin,3,true,true,No UTI,F,39,EU OBSERVATION,3
+Empagliflozin,0,false,false,No UTI,M,48,URGENT,4
+Empagliflozin,7,true,false,No UTI,F,62,OBSERVATION ADMIT,9
+Empagliflozin,1,false,false,No UTI,M,94,EU OBSERVATION,2
+Empagliflozin,1,true,false,No UTI,M,67,EU OBSERVATION,3
+Empagliflozin,8,true,false,No UTI,F,78,OBSERVATION ADMIT,35
+Empagliflozin,5,true,false,No UTI,M,41,OBSERVATION ADMIT,7
+Empagliflozin,0,true,false,No UTI,M,68,EW EMER.,7
+Empagliflozin,1,true,false,No UTI,F,74,DIRECT EMER.,6
+Empagliflozin,5,false,false,No UTI,M,33,OBSERVATION ADMIT,7
+Empagliflozin,1,true,false,No UTI,F,81,EW EMER.,6
+Empagliflozin,7,false,false,No UTI,F,73,OBSERVATION ADMIT,13
+Empagliflozin,0,false,false,No UTI,M,48,URGENT,4
+Empagliflozin,0,true,false,No UTI,M,53,DIRECT OBSERVATION,1
+Empagliflozin,3,true,true,No UTI,F,66,EU OBSERVATION,4
+Empagliflozin,0,false,false,No UTI,M,48,URGENT,4
+Empagliflozin,6,true,false,No UTI,M,45,EW EMER.,7
+Empagliflozin,0,true,false,No UTI,F,62,EW EMER.,2
+Empagliflozin,2,false,false,No UTI,M,56,OBSERVATION ADMIT,3
+Empagliflozin,0,false,false,No UTI,M,90,OBSERVATION ADMIT,1
+Empagliflozin,0,true,false,No UTI,F,65,URGENT,93
+Empagliflozin,2,true,false,No UTI,F,70,OBSERVATION ADMIT,4
+Empagliflozin,4,true,false,No UTI,M,77,OBSERVATION ADMIT,5
+Empagliflozin,0,false,false,No UTI,F,86,DIRECT OBSERVATION,1
+Empagliflozin,2,false,false,No UTI,M,78,OBSERVATION ADMIT,6
+Empagliflozin,1,true,false,No UTI,M,75,OBSERVATION ADMIT,7
+Empagliflozin,0,true,false,No UTI,M,72,SURGICAL SAME DAY ADMISSION,2
+Empagliflozin,5,false,false,No UTI,F,57,OBSERVATION ADMIT,14
+Empagliflozin,0,false,false,No UTI,M,64,OBSERVATION ADMIT,6
+Empagliflozin,1,true,false,No UTI,M,66,URGENT,11
+Empagliflozin,6,true,false,No UTI,F,73,EW EMER.,6
+Empagliflozin,3,true,false,No UTI,F,75,OBSERVATION ADMIT,6
+Empagliflozin,2,false,false,No UTI,M,68,DIRECT EMER.,2
+Empagliflozin,1,true,true,No UTI,F,39,EW EMER.,32
+Empagliflozin,8,false,true,No UTI,M,67,EW EMER.,18
+Empagliflozin,2,true,true,No UTI,F,69,OBSERVATION ADMIT,39
+Empagliflozin,1,true,false,No UTI,M,63,EU OBSERVATION,1
+Empagliflozin,0,true,false,No UTI,M,67,OBSERVATION ADMIT,3
+Empagliflozin,0,true,false,No UTI,M,52,OBSERVATION ADMIT,19
+Empagliflozin,1,false,false,No UTI,M,52,DIRECT EMER.,57
+Empagliflozin,6,true,false,No UTI,M,42,OBSERVATION ADMIT,8
+Empagliflozin,0,true,false,No UTI,F,75,EW EMER.,55
+Empagliflozin,0,true,true,No UTI,F,65,DIRECT EMER.,21
+Empagliflozin,0,true,false,No UTI,M,77,OBSERVATION ADMIT,3
+Empagliflozin,1,true,false,No UTI,F,41,OBSERVATION ADMIT,6
+Empagliflozin,0,true,false,No UTI,F,84,SURGICAL SAME DAY ADMISSION,6
+Empagliflozin,9,false,true,No UTI,F,66,OBSERVATION ADMIT,22
+Empagliflozin,0,true,true,No UTI,F,39,EW EMER.,32
+Empagliflozin,2,false,false,No UTI,M,51,OBSERVATION ADMIT,9
+Empagliflozin,0,true,false,No UTI,M,73,DIRECT OBSERVATION,1
+Empagliflozin,9,true,true,No UTI,M,56,OBSERVATION ADMIT,14
+Empagliflozin,1,true,false,No UTI,F,63,URGENT,2
+Empagliflozin,0,true,false,No UTI,M,66,OBSERVATION ADMIT,12
+Empagliflozin,4,true,false,No UTI,F,68,EW EMER.,24
+Empagliflozin,8,true,false,No UTI,F,41,EW EMER.,8
+Empagliflozin,5,false,false,No UTI,F,55,EW EMER.,10
+Empagliflozin,0,false,false,No UTI,F,56,EU OBSERVATION,5
+Empagliflozin,2,true,false,No UTI,M,68,OBSERVATION ADMIT,10
+Empagliflozin,0,true,true,No UTI,M,76,OBSERVATION ADMIT,3
+Empagliflozin,7,true,false,No UTI,M,55,OBSERVATION ADMIT,39
+Empagliflozin,0,false,false,No UTI,M,40,URGENT,8
+Empagliflozin,3,true,true,No UTI,F,89,EW EMER.,7
+Empagliflozin,0,true,false,No UTI,F,75,URGENT,20
+Empagliflozin,0,true,false,No UTI,F,65,OBSERVATION ADMIT,18
+Empagliflozin,0,true,false,No UTI,M,52,DIRECT OBSERVATION,1
+Empagliflozin,3,true,false,No UTI,M,81,OBSERVATION ADMIT,3
+Empagliflozin,1,true,false,No UTI,M,69,DIRECT EMER.,7
+Empagliflozin,0,false,false,No UTI,M,53,URGENT,5
+Empagliflozin,0,true,false,No UTI,F,74,OBSERVATION ADMIT,5
+Empagliflozin,2,false,false,No UTI,M,73,DIRECT EMER.,23
+Empagliflozin,12,true,true,No UTI,F,59,OBSERVATION ADMIT,22
+Empagliflozin,6,false,false,No UTI,M,87,OBSERVATION ADMIT,10
+Empagliflozin,1,true,false,No UTI,F,68,EW EMER.,1
+Empagliflozin,1,false,false,No UTI,M,87,OBSERVATION ADMIT,8
+Empagliflozin,1,false,false,No UTI,F,64,EW EMER.,15
+Empagliflozin,1,false,false,No UTI,F,74,EW EMER.,3
+Empagliflozin,2,true,true,No UTI,F,48,OBSERVATION ADMIT,8
+Empagliflozin,3,true,false,No UTI,M,77,EU OBSERVATION,4
+Empagliflozin,1,false,false,No UTI,M,60,EW EMER.,8
+Empagliflozin,4,true,false,No UTI,F,77,OBSERVATION ADMIT,8
+Empagliflozin,0,true,false,No UTI,M,42,OBSERVATION ADMIT,6
+Empagliflozin,0,false,true,No UTI,M,67,EW EMER.,18
+Empagliflozin,2,true,false,No UTI,M,62,OBSERVATION ADMIT,10
+Empagliflozin,2,true,false,No UTI,M,42,OBSERVATION ADMIT,5
+Empagliflozin,11,false,false,No UTI,F,57,EW EMER.,37
+Empagliflozin,2,true,false,No UTI,M,81,OBSERVATION ADMIT,3
+Empagliflozin,1,true,false,No UTI,M,85,URGENT,10
+Empagliflozin,3,true,false,No UTI,F,73,EW EMER.,7
+Empagliflozin,0,false,false,No UTI,M,61,OBSERVATION ADMIT,12
+Empagliflozin,1,true,false,No UTI,F,63,OBSERVATION ADMIT,4
+Empagliflozin,4,true,true,No UTI,F,69,EW EMER.,8
+Empagliflozin,1,true,false,No UTI,M,92,OBSERVATION ADMIT,2
+Empagliflozin,1,false,false,No UTI,M,58,EW EMER.,2
+Empagliflozin,5,false,false,No UTI,M,73,OBSERVATION ADMIT,12
+Empagliflozin,3,true,false,No UTI,M,78,EW EMER.,37
+Empagliflozin,0,true,false,No UTI,F,68,OBSERVATION ADMIT,12
+Empagliflozin,4,true,true,No UTI,M,61,EW EMER.,5
+Empagliflozin,1,true,true,No UTI,M,59,OBSERVATION ADMIT,6
+Empagliflozin,50,true,false,No UTI,M,78,EW EMER.,51
+Empagliflozin,1,true,false,No UTI,F,63,OBSERVATION ADMIT,4
+Empagliflozin,0,true,false,No UTI,F,70,DIRECT EMER.,8
+Empagliflozin,1,true,true,No UTI,F,79,EW EMER.,17
+Empagliflozin,0,true,false,No UTI,M,56,OBSERVATION ADMIT,2
+Empagliflozin,2,true,false,No UTI,M,65,OBSERVATION ADMIT,4
+Empagliflozin,6,true,false,No UTI,M,85,URGENT,10
+Empagliflozin,0,false,false,No UTI,M,79,EW EMER.,4
+Empagliflozin,2,true,false,No UTI,M,79,OBSERVATION ADMIT,4
+Empagliflozin,1,true,true,No UTI,M,92,OBSERVATION ADMIT,8
+Empagliflozin,2,true,false,No UTI,F,73,EW EMER.,7
+Empagliflozin,2,true,true,No UTI,F,69,OBSERVATION ADMIT,9
+Empagliflozin,7,false,false,No UTI,F,48,EW EMER.,7
+Empagliflozin,1,true,false,No UTI,M,58,OBSERVATION ADMIT,6
+Empagliflozin,11,true,false,No UTI,M,55,OBSERVATION ADMIT,39
+Empagliflozin,0,true,false,No UTI,M,61,OBSERVATION ADMIT,11
+Empagliflozin,2,true,true,No UTI,M,66,OBSERVATION ADMIT,3
+Empagliflozin,2,false,false,No UTI,F,65,URGENT,13
+Empagliflozin,1,true,false,No UTI,F,61,OBSERVATION ADMIT,5
+Empagliflozin,0,false,false,No UTI,F,58,EW EMER.,3
+Empagliflozin,2,false,true,No UTI,M,67,EW EMER.,18
+Empagliflozin,0,true,false,No UTI,M,86,EW EMER.,5
+Empagliflozin,0,true,false,No UTI,M,69,DIRECT OBSERVATION,1
+Empagliflozin,0,true,false,No UTI,F,81,DIRECT OBSERVATION,1
+Empagliflozin,0,true,false,No UTI,M,73,DIRECT EMER.,5
+Empagliflozin,0,true,true,No UTI,F,80,OBSERVATION ADMIT,15
+Empagliflozin,5,true,false,No UTI,M,81,EW EMER.,7
+Empagliflozin,3,true,false,No UTI,M,54,EU OBSERVATION,3
+Empagliflozin,2,false,false,No UTI,F,64,EW EMER.,15
+Empagliflozin,3,true,false,No UTI,F,74,OBSERVATION ADMIT,4
+Empagliflozin,5,true,false,No UTI,F,80,OBSERVATION ADMIT,8
+Empagliflozin,1,false,false,No UTI,M,73,OBSERVATION ADMIT,6
+Empagliflozin,0,true,false,No UTI,M,75,SURGICAL SAME DAY ADMISSION,9
+Empagliflozin,2,true,false,No UTI,M,42,OBSERVATION ADMIT,8
+Empagliflozin,3,true,false,No UTI,M,73,SURGICAL SAME DAY ADMISSION,5
+Farxiga,1,true,false,No UTI,M,66,DIRECT EMER.,10
+Farxiga,0,true,true,No UTI,F,42,OBSERVATION ADMIT,38
+Jardiance,3,false,false,No UTI,M,62,EW EMER.,20
+Jardiance,7,true,false,No UTI,M,57,OBSERVATION ADMIT,13
+Jardiance,3,false,false,No UTI,M,55,EW EMER.,6
+Jardiance,5,true,false,No UTI,M,57,OBSERVATION ADMIT,13
+Jardiance,5,true,false,No UTI,M,57,OBSERVATION ADMIT,31
+Jardiance,4,true,false,No UTI,F,63,ELECTIVE,16
+dapagliflozin,0,true,false,No UTI,M,54,OBSERVATION ADMIT,8
+dapagliflozin,6,true,false,No UTI,M,54,OBSERVATION ADMIT,8
+empagliflozin,1,false,false,No UTI,F,70,OBSERVATION ADMIT,13
+empagliflozin,1,true,false,No UTI,M,56,URGENT,7
+empagliflozin,3,true,false,No UTI,F,52,EW EMER.,17
+empagliflozin,0,true,false,No UTI,M,85,OBSERVATION ADMIT,7
+empagliflozin,3,true,true,No UTI,M,70,OBSERVATION ADMIT,16
+empagliflozin,4,true,true,No UTI,M,70,OBSERVATION ADMIT,8
+empagliflozin,0,true,false,No UTI,M,85,OBSERVATION ADMIT,7
+empagliflozin,2,true,false,No UTI,M,57,OBSERVATION ADMIT,5
+empagliflozin,1,true,true,No UTI,M,70,OBSERVATION ADMIT,16
+empagliflozin,4,true,true,No UTI,M,70,OBSERVATION ADMIT,16
+empagliflozin,0,true,false,No UTI,F,73,DIRECT OBSERVATION,1
+empagliflozin,3,false,false,No UTI,M,62,OBSERVATION ADMIT,12
+Dapagliflozin,0,true,false,Recurrent UTI,F,42,EW EMER.,11
+Empagliflozin,22,true,false,Recurrent UTI,M,79,EW EMER.,21
+Empagliflozin,1,false,false,Recurrent UTI,M,66,URGENT,7
+Empagliflozin,2,true,true,Recurrent UTI,F,78,EW EMER.,7
+Empagliflozin,2,true,true,Recurrent UTI,F,78,EW EMER.,7
+Empagliflozin,1,true,false,Recurrent UTI,F,74,DIRECT EMER.,12
+Empagliflozin,3,true,true,Recurrent UTI,F,78,EW EMER.,7
+Empagliflozin,3,true,true,Recurrent UTI,F,78,EW EMER.,7
+Empagliflozin,25,true,true,Recurrent UTI,F,59,OBSERVATION ADMIT,33
+Empagliflozin,25,true,true,Recurrent UTI,F,59,OBSERVATION ADMIT,33
+Empagliflozin,6,true,true,Recurrent UTI,F,59,OBSERVATION ADMIT,33
+Empagliflozin,19,false,false,Recurrent UTI,M,66,EW EMER.,21
+Empagliflozin,16,true,true,Recurrent UTI,M,56,EW EMER.,18
+Empagliflozin,0,true,true,Recurrent UTI,M,79,OBSERVATION ADMIT,7
+Empagliflozin,0,true,true,Recurrent UTI,M,79,OBSERVATION ADMIT,7
+Empagliflozin,2,true,false,Recurrent UTI,F,76,URGENT,12
+Empagliflozin,2,true,false,Recurrent UTI,F,76,URGENT,12
+Empagliflozin,3,true,false,Recurrent UTI,F,76,OBSERVATION ADMIT,8
+Empagliflozin,3,true,false,Recurrent UTI,F,76,OBSERVATION ADMIT,8
+Empagliflozin,3,true,false,Recurrent UTI,F,83,EW EMER.,19
+Empagliflozin,7,true,true,Recurrent UTI,F,78,EW EMER.,13
+Empagliflozin,4,true,true,Recurrent UTI,F,81,EW EMER.,9
+Empagliflozin,8,true,false,Recurrent UTI,F,76,OBSERVATION ADMIT,12
+Empagliflozin,8,true,false,Recurrent UTI,F,76,OBSERVATION ADMIT,12
+Empagliflozin,1,true,true,Recurrent UTI,M,78,OBSERVATION ADMIT,6
+Empagliflozin,1,true,true,Recurrent UTI,M,78,OBSERVATION ADMIT,6
+Empagliflozin,12,true,true,Recurrent UTI,F,59,URGENT,89
+Empagliflozin,0,true,true,Recurrent UTI,F,81,EW EMER.,9
+Empagliflozin,0,true,false,Recurrent UTI,M,81,DIRECT EMER.,1
+Empagliflozin,75,true,true,Recurrent UTI,F,59,URGENT,89
