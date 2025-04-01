@@ -9,6 +9,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, classification_report
 import warnings
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.metrics import confusion_matrix, roc_curve, auc
+from sklearn.inspection import permutation_importance
 
 warnings.filterwarnings('ignore')
 
@@ -236,6 +240,79 @@ def evaluate(model, dataloader, criterion, device):
     return total_loss / len(dataloader), accuracy, precision, recall, f1, predictions, true_labels, probabilities
 
 
+def plot_training_history(train_metrics, val_metrics):
+    """Plot training and validation metrics over epochs."""
+    epochs = range(1, len(train_metrics['loss']) + 1)
+
+    fig, axes = plt.subplots(2, 2, figsize=(15, 10))
+    metrics = ['loss', 'accuracy', 'precision', 'f1']
+    titles = ['Loss', 'Accuracy', 'Precision', 'F1 Score']
+
+    for i, metric in enumerate(metrics):
+        ax = axes[i // 2, i % 2]
+        ax.plot(epochs, train_metrics[metric], 'b-', label=f'Training {titles[i]}')
+        ax.plot(epochs, val_metrics[metric], 'r-', label=f'Validation {titles[i]}')
+        ax.set_title(f'{titles[i]} over Epochs')
+        ax.set_xlabel('Epochs')
+        ax.set_ylabel(titles[i])
+        ax.legend()
+        ax.grid(True)
+
+    plt.tight_layout()
+    plt.savefig('training_history.png')
+    plt.close()
+
+
+def plot_confusion_matrix(y_true, y_pred):
+    """Plot confusion matrix for test predictions."""
+    cm = confusion_matrix(y_true, y_pred)
+    plt.figure(figsize=(8, 6))
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
+                xticklabels=['No UTI', 'UTI'],
+                yticklabels=['No UTI', 'UTI'])
+    plt.xlabel('Predicted Label')
+    plt.ylabel('True Label')
+    plt.title('Confusion Matrix')
+    plt.tight_layout()
+    plt.savefig('confusion_matrix.png')
+    plt.close()
+
+
+def plot_roc_curve(y_true, y_prob):
+    """Plot ROC curve and calculate AUC."""
+    fpr, tpr, _ = roc_curve(y_true, y_prob)
+    roc_auc = auc(fpr, tpr)
+
+    plt.figure(figsize=(8, 6))
+    plt.plot(fpr, tpr, color='darkorange', lw=2,
+             label=f'ROC curve (area = {roc_auc:.3f})')
+    plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
+    plt.xlim([0.0, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.title('Receiver Operating Characteristic (ROC) Curve')
+    plt.legend(loc="lower right")
+    plt.grid(True)
+    plt.savefig('roc_curve.png')
+    plt.close()
+
+
+def plot_feature_distributions(df, feature_cols, target_col='uti_target'):
+    """Plot distributions of features by target class."""
+    plt.figure(figsize=(15, 10))
+
+    for i, feature in enumerate(feature_cols):
+        plt.subplot(3, 3, i + 1)
+        sns.histplot(data=df, x=feature, hue=target_col, kde=True,
+                     palette=['blue', 'red'], alpha=0.5)
+        plt.title(f'Distribution of {feature}')
+
+    plt.tight_layout()
+    plt.savefig('feature_distributions.png')
+    plt.close()
+
+
 # Standard training function (replacing PBT version)
 def train_model(X_train, y_train, X_val, y_val, X_test, y_test, input_dim, config):
     # Create model with config hyperparameters
@@ -294,6 +371,10 @@ def train_model(X_train, y_train, X_val, y_val, X_test, y_test, input_dim, confi
         T_max=config["num_epochs"]
     )
 
+    # Add these dictionaries to track metrics
+    train_metrics = {'loss': [], 'accuracy': [], 'precision': [], 'recall': [], 'f1': []}
+    val_metrics = {'loss': [], 'accuracy': [], 'precision': [], 'recall': [], 'f1': []}
+
     # Training loop
     best_val_f1 = 0
     best_model_state = model.state_dict().copy()
@@ -307,6 +388,19 @@ def train_model(X_train, y_train, X_val, y_val, X_test, y_test, input_dim, confi
         val_loss, val_acc, val_prec, val_rec, val_f1, _, _, _ = evaluate(
             model, val_loader, criterion, device
         )
+
+        # Store metrics for plotting
+        train_metrics['loss'].append(train_loss)
+        train_metrics['accuracy'].append(train_acc)
+        train_metrics['precision'].append(train_prec)
+        train_metrics['recall'].append(train_rec)
+        train_metrics['f1'].append(train_f1)
+
+        val_metrics['loss'].append(val_loss)
+        val_metrics['accuracy'].append(val_acc)
+        val_metrics['precision'].append(val_prec)
+        val_metrics['recall'].append(val_rec)
+        val_metrics['f1'].append(val_f1)
 
         # Step the scheduler
         scheduler.step()
@@ -348,6 +442,12 @@ def train_model(X_train, y_train, X_val, y_val, X_test, y_test, input_dim, confi
     }, "sglt2_uti_best_model.pt")
     print("Best model saved to 'sglt2_uti_best_model.pt'")
 
+    # Generate plots
+    plot_training_history(train_metrics, val_metrics)
+    plot_confusion_matrix(test_labels, test_preds)
+    plot_roc_curve(test_labels, test_probs)
+
+    print("Performance visualizations saved to disk.")
     return model, test_acc, test_f1
 
 
@@ -355,8 +455,20 @@ def train_model(X_train, y_train, X_val, y_val, X_test, y_test, input_dim, confi
 def main():
     print("Starting UTI prediction with SGLT2 data...")
 
+    # Load original dataframe
+    df = pd.read_csv('sglt2_uti_data.csv')
+
+    # Create the target column in the original dataframe
+    df['uti_target'] = df['uti_status'].apply(
+        lambda x: 1 if x in ['Recurrent UTI', 'New onset UTI'] else 0
+    )
+
     # Load and preprocess data from exported SQL query
     X_train, X_test, y_train, y_test, feature_cols = load_and_preprocess_data()
+
+    # Plot feature distributions before model training
+    plot_feature_distributions(df, [col for col in df.columns
+                                    if col in feature_cols or col in ['sglt2_duration', 'age_at_admission']])
 
     # Split train into train and validation
     X_train_final, X_val, y_train_final, y_val = train_test_split(
